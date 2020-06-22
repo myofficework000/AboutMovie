@@ -1,4 +1,4 @@
-# Movie Finder 
+# About Movie
 
 **About Movie** is a sample android application 📱to search movies 🍿using OMDb API which is built to demonstrate use of *Modern Android development* tools. It has been built using kotlin with clean architecture principles and MVVM pattern as well as Architecture Components. Dedicated to all Android Developers with ❤️.
 
@@ -63,19 +63,10 @@ This app uses [***MVVM (Model View View-Model)***](https://developer.android.com
 ![](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
 
 
-## Contributing
-
-Please fork this repository and contribute back using
-[pull requests](https://github.com/Shashank02051997/MovieFinderUsingMVVM-Android/pulls).
-
-Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
-but will be thoroughly reviewed .
 
 ### Contact - Let's become friend
-- [Twitter](https://twitter.com/shashank020597)
-- [Github](https://github.com/Shashank02051997)
-- [Linkedin](https://www.linkedin.com/in/shashank-singhal-a87729b5/)
-- [Facebook](https://www.facebook.com/shashanksinghal02)
+- [Github](https://github.com/cheetahmail007)
+- [Linkedin](https://www.linkedin.com/in/abhishek-pathak-b735018b/)
 
 <p>
 Don't forget to star ⭐ the repo it motivates me to share more open source
