@@ -1,25 +1,8 @@
 # Movie Finder 
 
-![Github Followers](https://img.shields.io/github/followers/Shashank02051997?label=Follow&style=social)
-![GitHub stars](https://img.shields.io/github/stars/Shashank02051997/MovieFinderUsingMVVM-Android?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Shashank02051997/MovieFinderUsingMVVM-Android?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Shashank02051997/MovieFinderUsingMVVM-Android?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/shashank020597?label=Follow&style=social)
-
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Shashank02051997/MovieFinderUsingMVVM-Android) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Shashank02051997/MovieFinderUsingMVVM-Android) ![GitHub last commit](https://img.shields.io/github/last-commit/Shashank02051997/MovieFinderUsingMVVM-Android)  ![GitHub issues](https://img.shields.io/github/issues-raw/Shashank02051997/MovieFinderUsingMVVM-Android) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](Shashank02051997/MovieFinderUsingMVVM-Android)
-
-[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
-[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=21)
-<a href="https://www.linkedin.com/in/shashank-singhal-a87729b5/">
-    <img src="https://img.shields.io/badge/Support-Recommed%2FEndorse%20me%20on%20Linkedin-yellow?style=for-the-badge&logo=linkedin" alt="Recommend me on LinkedIn" /></a>
+**About Movie** is a sample android application 📱to search movies 🍿using OMDb API which is built to demonstrate use of *Modern Android development* tools. It has been built using kotlin with clean architecture principles and MVVM pattern as well as Architecture Components. Dedicated to all Android Developers with ❤️.
 
 
-**Movie Finder** is a sample android application 📱to search movies 🍿using OMDb API which is built to demonstrate use of *Modern Android development* tools. It has been built using kotlin with clean architecture principles and MVVM pattern as well as Architecture Components. Dedicated to all Android Developers with ❤️. 
-
-***You can Install and test latest app from below 👇***
-
-[![Movie Finder App](https://img.shields.io/badge/MovieFinder🍿-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/Shashank02051997/MovieFinderUsingMVVM-Android/tree/master/apk)
 
 ## About
 The app in itself is a simple movie searching app. Clicking the movie list item it shows the detail of the movie. While this is not an extremely complex app, it isn't a silly Hello World one either, so the hope is that it'll cover regular use cases for a basic application.
@@ -34,9 +17,9 @@ The app in itself is a simple movie searching app. Clicking the movie list item 
 
 **Please click the image below to enlarge.**
 
-<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120549.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120602.png" height="600" width="300" hspace="40">
+<img src="https://github.com/cheetahmail007/AboutMovie/blob/master/screenshots/1.png" height="600" width="300" hspace="40"><img src="https://github.com/cheetahmail007/AboutMovie/blob/master/screenshots/2.png" height="600" width="300" hspace="40">
 
-<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120619.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120626.png" height="600" width="300" hspace="40">
+<img src="https://github.com/cheetahmail007/AboutMovie/blob/master/screenshots/3.png" height="600" width="300" hspace="40"><img src="https://github.com/cheetahmail007/AboutMovie/blob/master/screenshots/4.png" height="600" width="300" hspace="40">
 
 
 ## Built With 🛠
@@ -56,7 +39,7 @@ The app in itself is a simple movie searching app. Clicking the movie list item 
 
 # Package Structure
     
-    com.shashank.moviefindermvvm    # Root Package
+    com.abhishek.moviefindermvvm    # Root Package
     .
     ├── data                # For data handling.
     │   ├── model           # Model classes
@@ -98,32 +81,3 @@ but will be thoroughly reviewed .
 Don't forget to star ⭐ the repo it motivates me to share more open source
 </p>
 
-## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
-
-<a href="https://www.buymeacoffee.com/mXUuDW7" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## License
-
-```
-MIT License
-
-Copyright (c) 2020 Shashank Singhal
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.```
