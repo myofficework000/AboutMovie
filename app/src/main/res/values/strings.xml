@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">About Movie</string>
+    <string name="text_no_connectivity">No Connection</string>
+    <string name="text_connectivity">Back Online</string>
+    <string name="attribution">powered by IMDB</string>
+    <string name="developer">developed by Abhishek Pathak</string>
+
+</resources>
