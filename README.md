@@ -58,10 +58,8 @@ The app in itself is a simple movie searching app. Clicking the movie list item 
 
 
 ## Architecture
-This app uses [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
-
-![](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
-
+This app uses **MVVM** architecture.
+![image](https://user-images.githubusercontent.com/51234843/190183169-fb67bce4-9dc7-4de8-819b-3ee23d298e8a.png)
 
 
 ### Contact - Let's become friend
