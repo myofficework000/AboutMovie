@@ -5,7 +5,7 @@
 
 
 ## About
-The app in itself is a simple movie searching app. Clicking the movie list item it shows the detail of the movie. While this is not an extremely complex app, it isn't a silly Hello World one either, so the hope is that it'll cover regular use cases for a basic application.
+The app in itself is a simple movie searching app. On the click on the movie list item it shows the detail of the movie. While this is not an extremely complex app, it isn't a silly Hello World one either, so the hope is that it'll cover regular use cases for a basic application.
 
 
 ## Sailent Features:
