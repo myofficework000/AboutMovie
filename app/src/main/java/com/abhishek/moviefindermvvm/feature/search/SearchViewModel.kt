@@ -6,6 +6,7 @@ import com.abhishek.moviefindermvvm.core.common.Resource
 import com.abhishek.moviefindermvvm.domain.repository.FavoritesRepository
 import com.abhishek.moviefindermvvm.domain.repository.MovieRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asSharedFlow
@@ -26,6 +27,7 @@ class SearchViewModel @Inject constructor(
     val effects = _effects.asSharedFlow()
     private var page = 1
     private var totalResults = 0
+    private var searchJob: Job? = null
 
     init {
         viewModelScope.launch {
@@ -53,6 +55,7 @@ class SearchViewModel @Inject constructor(
             viewModelScope.launch { _effects.emit(SearchEffect.Message("Enter at least two characters.")) }
             return
         }
+        searchJob?.cancel()
         if (reset) {
             page = 1
             totalResults = 0
@@ -61,7 +64,7 @@ class SearchViewModel @Inject constructor(
             page += 1
             _state.update { it.copy(isLoadingMore = true, error = null) }
         }
-        viewModelScope.launch {
+        searchJob = viewModelScope.launch {
             movieRepository.searchMovies(query, page).collectLatest { result ->
                 when (result) {
                     Resource.Loading -> Unit
